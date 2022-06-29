@@ -1,0 +1,24 @@
+.container {
+    /* border: 3px solid blue;
+    padding: 20px 40px 40px;
+    max-width: 640px; */
+    display: flex;
+}
+.container__image {
+    padding: 0px 10px 0px 0px;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+  .container__text {
+    flex: 1 1 auto;
+  }
+
+  .mainHeading{
+    text-align: center;
+    color: #2d3955;
+    padding: 20% 0% 0% 0%;
+  }
+  p{
+    font-size: 15px;
+    font-family: cursive;
+  }
